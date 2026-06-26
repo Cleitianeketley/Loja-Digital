@@ -2,9 +2,11 @@ footer {
     background-color: #1F1F1F;
     padding: 50px 20px 46px;
 
+
     * {
-        color: #FFF;
+        color: #fff;
     }
+
     .social {
         margin-bottom: 40px;
 
@@ -13,35 +15,35 @@ footer {
             gap: 5.5px;
             margin-bottom: 20px;
 
-            img{
+            img {
                 width: 22px;
             }
 
-            Span {
+            span {
                 font-size: 24.5px;
                 font-weight: 600;
             }
         }
 
-        p{
+        p {
             font-size: 14px;
             line-height: 22px;
             letter-spacing: .25px;
             width: 300px;
             margin-bottom: 30px;
-
         }
-        ul{
+
+        ul {
             display: flex;
             gap: 35px;
 
-            img{
+            img {
                 height: 22px;
             }
         }
     }
 
-    .information{
+    .information {
         display: flex;
         gap: 32px;
         margin-bottom: 40px;
@@ -52,14 +54,15 @@ footer {
                 font-weight: 600;
                 margin-bottom: 10px;
             }
+
             ul {
                 a {
                     line-height: 31px;
                 }
-
             }
         }
     }
+
     .contact {
         margin-bottom: 40px;
 
@@ -80,7 +83,6 @@ footer {
                 width: 300px;
             }
         }
-
     }
 
     hr {
@@ -92,7 +94,5 @@ footer {
         display: block;
         text-align: center;
         line-height: 24px;
-
     }
-
 }
